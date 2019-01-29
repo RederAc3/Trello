@@ -35,6 +35,7 @@ body {
     }
     .column-container {
       display: flex;
+      align-items: flex-start;
 
       & > div {
         //jedna kolumna
@@ -83,6 +84,7 @@ body {
           .column-card-list {
             position: relative;
             left: -20px;
+            min-height: 30px;
 
             li {
               list-style: none;
@@ -124,3 +126,6 @@ body {
     }
   }
 }
+
+
+
